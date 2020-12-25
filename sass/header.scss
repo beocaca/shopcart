@@ -1,0 +1,26 @@
+.header {
+  background-color: #aaa;
+}
+.header--content {
+  display: flex;
+  justify-content: space-between;
+  height: 34px;
+  color: white;
+}
+
+.header--content .left {
+  display: flex;
+  flex: 1;
+  border: solid red;
+  align-items: center;
+  font-size: 17px;
+  .links {
+    border: solid #2fff00;
+    display: flex;
+  }
+}
+
+
+.header--content .left .links{
+
+}
