@@ -1,1 +1,426 @@
 
+.cart__bg {
+  background-color: #f3f3f3;
+  padding: 15px 0 50px;
+  border-bottom: 4px solid #ee4d2d;
+}
+
+.cart__note {
+  font-size: 15px;
+  padding: 10px 20px;
+  border: solid #f0dc9d;
+  background-color: #fffefb;
+  margin-bottom: 20px;
+}
+
+/*.note1 {
+  background-color: #fff;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  border-top: solid #f3f3f3;
+  padding: 20px 0;
+
+  .icon {
+    padding: 0 20px;
+  }
+
+  .them {
+    color: blue;
+  }
+
+  p {
+    display: flex;
+  }
+}*/
+
+
+.cart__item {
+  background-color: #fff;
+
+  td {
+    padding: 10px 0;
+    text-align: center;
+  }
+
+  .item {
+    padding: 0 10px;
+    border-top: solid #f3f3f3;
+
+    &.item0 {
+      background-color: #f3f3f3;
+
+      .line {
+        padding: 10px 0;
+      }
+    }
+
+    &.item1, &.item0, &.item2 {
+      color: #888888;
+      border-top: solid white;
+
+      .sanpham {
+        color: black;
+        padding: 5px;
+      }
+
+
+      .tongtien {
+        color: #888888;
+      }
+    }
+
+    &.item3 {
+      width: 100%;
+
+    }
+
+    &.note1 {
+      .freeship {
+        text-align: left;
+        font-size: 15px;
+        padding: 10px 0;
+
+        a {
+          color: blue;
+        }
+      }
+    }
+
+    .check {
+      width: 60px;
+      margin-left: 10px;
+    }
+
+    .sanpham {
+      display: flex;
+      width: 350px;
+
+      .name {
+        padding-left: 10px;
+      }
+
+      .wishlist {
+        display: flex;
+
+        p {
+          margin: 0 10px;
+        }
+
+        .badge-wish {
+          color: #fff;
+          background-color: #db5430;
+        }
+
+        .icon-badge {
+          background-color: #db5430;
+          color: white;
+
+        }
+      }
+
+      img {
+        height: 80px;
+        width: 80px;
+      }
+    }
+
+    .phanloai {
+      color: #888888;
+      text-align: left;
+    }
+
+    .gia {
+      width: 150px;
+      padding-left: 50px;
+    }
+
+    .soluong {
+      padding-left: 50px;
+
+      width: 200px;
+      text-align: center;
+
+      .btn {
+        height: 32px;
+        width: 32px;
+        background-color: transparent;
+        border: solid #ddd;
+      }
+
+      .input {
+        width: 50px;
+        height: 32px;
+        margin: 0 -4px;
+        text-align: center;
+      }
+    }
+
+
+    .tongtien {
+
+      width: 150px;
+      color: #db5430;
+    }
+
+    .thaotac {
+      width: 150px;
+
+      .spkhac {
+        color: #db5430;
+        font-size: 16px;
+        padding: 0 10px;
+      }
+    }
+  }
+}
+
+
+.cart__footer {
+  background-color: #fff;
+  position: sticky;
+  bottom: 0;
+  box-shadow: 0px 0px 30px 0px #ddd;
+
+  .voucher {
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: dotted #ddd;
+
+    p {
+      font-size: 18px;
+    }
+
+    .magiamgia {
+      padding-left: 160px;
+      color: blue;
+    }
+  }
+
+  .xushop {
+    color: #929292;
+    border-bottom: dotted #ddd;
+
+    display: flex;
+    justify-content: flex-end;
+    font-size: 16px;
+    padding: 20px;
+
+    .check {
+      margin-right: 20px;
+      width: 20px;
+      height: 20px;
+    }
+
+    .xu {
+      padding: 0 10px;
+    }
+
+    .giam {
+      padding-left: 200px;
+    }
+
+  }
+
+  .total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .left {
+      display: flex;
+      font-size: 20px;
+
+      .check {
+        width: 20px;
+        height: 20px;
+        margin: 0 20px;
+      }
+
+      .chontatca {
+        cursor: pointer;
+        font-size: 16px;
+        padding-right: 20px;
+      }
+
+      .xoa {
+        cursor: pointer;
+        font-size: 16px;
+        padding-right: 20px;
+      }
+
+      .luu {
+        cursor: pointer;
+        color: #db5430;
+        font-size: 16px;
+      }
+
+    }
+
+    .right {
+      display: flex;
+      padding: 10px 20px;
+
+      .tongtien {
+        .tientien {
+          display: flex;
+          font-size: 16px;
+          align-items: center;
+
+          .tien {
+            font-weight: 600;
+            padding: 0 5px;
+            font-size: 25px;
+            color: #db5430;
+            //border: solid 1px red;
+            sup {
+              font-weight: 100;
+              font-size: 95%;
+            }
+          }
+        }
+
+        padding-right: 10px;
+        text-align: right;
+
+        .nhanthem {
+          color: #f6a700;
+          font-size: 15px;
+          padding-top: 5px;
+        }
+      }
+
+      .muahang {
+        width: 222px;
+        background-color: #db5430;
+        padding: 13px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        a {
+          font-size: 14px;
+          color: white;
+        }
+      }
+    }
+  }
+}
+
+.text--line {
+  text-transform: uppercase;
+  padding: 50px 0 5px;
+  color: #929292;
+  font-size: 16px;
+}
+
+
+.cart__goiy {
+  display: flex;
+  margin: 0 -5px;
+
+  .item {
+    width: 16.67%;
+    padding: 0 5px;
+
+    .bgc {
+      background-color: #fff;
+
+      .image {
+        overflow: hidden;
+        height: 190px;
+        position: relative;
+
+        .yeuthich {
+          position: absolute;
+          top: 10px;
+          left: 0;
+          background-color: #db5430;
+          font-size: .875rem;
+          line-height: .875rem;
+          color: white;
+        }
+
+        .giamgia {
+          background-color: #f9d533;
+          position: absolute;
+          top: 0;
+          right: 0;
+          text-align: center;
+          padding: 0 2px;
+          color: white;
+          font-size: 14px;
+          font-weight: 600;
+
+          .giam {
+            color: red;
+            font-weight: 600;
+          }
+        }
+
+        .freeship {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+        }
+      }
+
+      .tittle {
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .name {
+          font-size: 14px;
+          padding: 5px;
+        }
+
+        .footer {
+          padding: 10px 5px;
+          display: flex;
+          justify-content: space-between;
+
+          .gia {
+            color: #db5430;
+          }
+
+          .daban {
+            font-size: 14px;
+            color: #929292;
+          }
+        }
+
+
+      }
+    }
+  }
+}
+
+.cart__vuaxem {
+  display: flex;
+  margin-top: 50px;
+  background-color: #fff;
+
+  .item {
+    width: 12.5%;
+    padding: 0 10px;
+
+    .image {
+      display: flex;
+      justify-content: center;
+      align-self: center;
+      height: 124px;
+      overflow: hidden;
+    }
+
+    .gia {
+      padding: 10px;
+      color: red;
+      text-align: center;
+    }
+  }
+}
+
+

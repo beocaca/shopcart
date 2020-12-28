@@ -1,26 +1,128 @@
-.header {
-  background-color: #aaa;
+.header .topbar {
+  background-color: #ee4d2d;
 }
-.header--content {
+
+.header__topbar {
   display: flex;
   justify-content: space-between;
   height: 34px;
   color: white;
-}
+  font-size: 14px;
 
-.header--content .left {
-  display: flex;
-  flex: 1;
-  border: solid red;
-  align-items: center;
-  font-size: 17px;
-  .links {
-    border: solid #2fff00;
+  .left {
     display: flex;
+    flex: 1;
+    align-items: center;
+    margin-left: -10px;
+    color: white;
+
+    .item {
+      border-right: solid wheat;
+
+      a {
+        color: white;
+      }
+
+      padding: 0 10px;
+
+      &:last-child {
+        border-right: transparent;
+      }
+
+      &.links {
+        display: flex;
+
+        a {
+          padding-left: 5px;
+        }
+      }
+    }
+  }
+
+  .right {
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+
+    .item {
+      padding-left: 20px;
+
+      & a {
+        color: white;
+      }
+    }
   }
 }
 
+.header {
+  .content {
+    background-color: #fff;
 
-.header--content .left .links{
+    .header__content {
+      height: 100px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
 
+      .left {
+        display: flex;
+        align-items: flex-end;
+
+        .logo {
+          color: #ee4d2d;
+          padding: 0 20px;
+
+          a {
+            font-size: 40px;
+
+            color: #ee4d2d;
+          }
+        }
+
+        .tittle {
+          border-left: solid #ee4d2d;
+          padding-left: 20px;
+          display: flex;
+          align-items: flex-end;
+
+          a {
+            font-size: 22px;
+
+            color: #ee4d2d;
+          }
+        }
+      }
+
+      .right {
+        display: flex;
+        height: 38px;
+
+        .search__content {
+          border: solid #ee4d2d 2px;
+          width: 550px;
+          padding-left: 10px;
+
+          &:focus {
+            background-color: transparent;
+            border: solid #ee4d2d 2px;
+            outline: none;
+          }
+        }
+
+        .icon {
+          background-color: #ee4d2d;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 80px;
+
+          a {
+            font-size: 25px;
+          }
+        }
+      }
+    }
+
+  }
 }
+

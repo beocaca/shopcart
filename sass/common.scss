@@ -16,7 +16,7 @@ time, mark, audio, video {
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline;
+  text-decoration: none;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -44,19 +44,22 @@ q:before, q:after {
 }
 
 table {
-  border-collapse: collapse;
   border-spacing: 0;
+  border-collapse: collapse;
+
 }
 
-a {
-
+*a {
+color: black
 }
 
 * {
   box-sizing: border-box;
 }
-
 .container {
   width: 1200px;
   margin: auto;
+}
+*img{
+  width: 100%;
 }
