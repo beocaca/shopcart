@@ -17,7 +17,11 @@
     color: white;
 
     .item {
-      border-right: solid wheat;
+      border-right: solid rgb(221, 221, 221, 0.5);
+
+      :hover {
+        opacity: 0.8
+      }
 
       a {
         color: white;
@@ -44,8 +48,20 @@
     align-items: center;
     padding-right: 10px;
 
+    :hover {
+      opacity: 0.8;
+    }
+
     .item {
       padding-left: 20px;
+
+      &.thongbao {
+
+      }
+
+      &.account {
+
+      }
 
       & a {
         color: white;

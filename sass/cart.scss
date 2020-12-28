@@ -325,7 +325,17 @@
     padding: 0 5px;
 
     .bgc {
+      position: relative;
       background-color: #fff;
+
+      .item--link {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 2;
+      }
 
       .image {
         overflow: hidden;
@@ -333,9 +343,10 @@
         position: relative;
 
         .yeuthich {
+          padding: 0 5px;
           position: absolute;
           top: 10px;
-          left: 0;
+          left:0px;
           background-color: #db5430;
           font-size: .875rem;
           line-height: .875rem;
@@ -400,12 +411,24 @@
 
 .cart__vuaxem {
   display: flex;
-  margin-top: 50px;
   background-color: #fff;
 
   .item {
+    padding: 20px 10px 10px 10px;
     width: 12.5%;
-    padding: 0 10px;
+
+    .bgc {
+      position: relative;
+
+      .item--link {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: 2;
+      }
+    }
 
     .image {
       display: flex;
