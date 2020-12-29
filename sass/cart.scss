@@ -161,13 +161,16 @@
         height: 32px;
         width: 32px;
         background-color: transparent;
-        border: solid #ddd;
+        border: solid 1px #ddd;
         display: block;
+        outline: none;
 
         &:focus {
-          border: solid #ddd;
-          outline: none;
-          background-color: #aaa;
+          opacity: 0.5;
+        }
+
+        &:hover {
+          cursor: pointer;
         }
       }
 
@@ -176,7 +179,7 @@
         height: 32px;
         text-align: center;
         outline: none;
-        border: solid #ddd;
+        border: solid 1px #ddd;
         border-right: none;
         border-left: none;
 
@@ -184,7 +187,6 @@
           //border-right: transparent;
           //border-left: transparent;
           outline: none;
-          border: solid #ddd;
         }
       }
     }
