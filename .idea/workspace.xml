@@ -6,6 +6,7 @@
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/cart.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/cart.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/main.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +54,7 @@
       <option name="presentableId" value="Default" />
       <updated>1608865659004</updated>
       <workItem from="1608865662930" duration="21636000" />
-      <workItem from="1609052506853" duration="41409000" />
+      <workItem from="1609052506853" duration="57225000" />
     </task>
     <task id="LOCAL-00001" summary="awwww">
       <created>1609144873919</created>
@@ -62,7 +63,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609144873919</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="awwww">
+      <created>1609148606490</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1609148606490</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

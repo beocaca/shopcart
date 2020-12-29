@@ -55,6 +55,40 @@
       }
     }
 
+    &.item2 {
+      .wishlist {
+        display: flex;
+        align-items: center;
+
+        p {
+          margin: 0 10px;
+        }
+
+        .badge-wish {
+          background-color: #db5430;
+          padding: 2.5px;
+          font-size: 12px;
+          font-weight: bold;
+
+          a {
+            color: #fff;
+          }
+        }
+
+        .icon-badge {
+          background-color: #db5430;
+          padding: 2.5px;
+          font-size: 12px;
+          font-weight: bold;
+
+          a {
+            color: white;
+          }
+
+        }
+      }
+    }
+
     &.item1, &.item0, &.item2 {
       color: #888888;
       border-top: solid white;
@@ -100,25 +134,6 @@
         padding-left: 10px;
       }
 
-      .wishlist {
-        display: flex;
-
-        p {
-          margin: 0 10px;
-        }
-
-        .badge-wish {
-          color: #fff;
-          background-color: #db5430;
-        }
-
-        .icon-badge {
-          background-color: #db5430;
-          color: white;
-
-        }
-      }
-
       img {
         height: 80px;
         width: 80px;
@@ -140,19 +155,37 @@
 
       width: 200px;
       text-align: center;
+      display: flex;
 
       .btn {
         height: 32px;
         width: 32px;
         background-color: transparent;
         border: solid #ddd;
+        display: block;
+
+        &:focus {
+          border: solid #ddd;
+          outline: none;
+          background-color: #aaa;
+        }
       }
 
       .input {
         width: 50px;
         height: 32px;
-        margin: 0 -4px;
         text-align: center;
+        outline: none;
+        border: solid #ddd;
+        border-right: none;
+        border-left: none;
+
+        &:focus {
+          //border-right: transparent;
+          //border-left: transparent;
+          outline: none;
+          border: solid #ddd;
+        }
       }
     }
 
@@ -193,7 +226,7 @@
     }
 
     .magiamgia {
-      padding-left: 160px;
+      margin-left: 160px;
       color: blue;
     }
   }
@@ -343,10 +376,11 @@
         position: relative;
 
         .yeuthich {
-          padding: 0 5px;
+          padding: 5px;
+
           position: absolute;
           top: 10px;
-          left:0px;
+          left: 0;
           background-color: #db5430;
           font-size: .875rem;
           line-height: .875rem;
@@ -359,7 +393,7 @@
           top: 0;
           right: 0;
           text-align: center;
-          padding: 0 2px;
+          padding: 5px;
           color: white;
           font-size: 14px;
           font-weight: 600;
