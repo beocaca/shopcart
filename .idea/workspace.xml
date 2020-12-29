@@ -4,8 +4,6 @@
     <list default="true" id="7cbc89c0-f4f0-4d15-aac7-be7dcd20245e" name="Default Changelist" comment="awwww">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/cart.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/cart.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/main.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +51,7 @@
       <option name="presentableId" value="Default" />
       <updated>1608865659004</updated>
       <workItem from="1608865662930" duration="21636000" />
-      <workItem from="1609052506853" duration="61414000" />
+      <workItem from="1609052506853" duration="68283000" />
     </task>
     <task id="LOCAL-00001" summary="awwww">
       <created>1609144873919</created>
@@ -76,7 +74,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609215652835</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="awwww">
+      <created>1609223002606</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1609223002606</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
