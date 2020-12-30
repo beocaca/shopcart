@@ -50,8 +50,10 @@
     .item {
       padding-left: 20px;
 
-      a:hover {
-        opacity: 0.8;
+      &:hover {
+        a {
+          opacity: 0.8;
+        }
       }
 
       &.thongbao {
